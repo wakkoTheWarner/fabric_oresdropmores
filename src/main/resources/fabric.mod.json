@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "oresdropmores",
+  "version": "${version}",
+  "name": "Oresdropmores",
+  "description": "Experience a whole new level of mining in Minecraft 1.19.3 with our mod that adds an exciting twist to your gameplay! With our mod, you can enjoy getting 1 to 3 extra ores when you mine. This means more resources and more excitement every time you hit the mines. ",
+  "authors": [
+    "thewakko"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/oresdropmores/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "thewakko.oresdropmores.client.OresdropmoresClient"
+    ],
+    "main": [
+      "thewakko.oresdropmores.OresDropMores"
+    ]
+  },
+  "mixins": [
+    "oresdropmores.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
